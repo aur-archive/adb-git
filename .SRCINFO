@@ -1,7 +1,7 @@
 pkgbase = adb-git
 	pkgdesc = adb (Android Debug Bridge CLI tool), an Android platform tool
-	pkgver = android-4.4.4_r2.0.1
-	pkgrel = 2
+	pkgver = 4d1d2ca
+	pkgrel = 1
 	url = http://tools.android.com/
 	arch = i686
 	arch = x86_64
@@ -12,7 +12,7 @@ pkgbase = adb-git
 	depends = zlib
 	provides = adb
 	conflicts = adb
-	source = git+https://android.googlesource.com/platform/system/core
+	source = git+https://android.googlesource.com/platform/system/core#branch=master
 	source = adbMakefile
 	md5sums = SKIP
 	md5sums = SKIP
